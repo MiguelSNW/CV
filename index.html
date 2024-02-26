@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículum</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url(https://4kwallpapers.com/images/wallpapers/ipados-17-stock-2880x1800-11582.png);
+            background-size: cover;
+        }
+
+        .header {
+            background-color: blueviolet;
+            color: white;
+            text-align: center;
+            top: 0px;
+            width: 100%;
+            position: sticky;
+            
+        }
+
+        .topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+        
+
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 3fr;
+            grid-gap: 200px;
+            max-width: 100px;
+            margin: 20px;
+            
+            padding: 20px;
+            border-radius: 8px;
+           
+        }
+        .section{
+    margin: 5px;
+        }
+
+        .left-column {
+            display: grid;
+            grid-template-rows: repeat(4, auto);
+            grid-gap: 10px;
+            margin-left: 50px;
+            background-color: white;
+            padding: 20px;
+            border-radius: 50px;
+            
+        
+        }
+
+        .bannerletras{
+            background-color: lightsteelblue;
+            border-radius: 30px;
+            text-align: center;
+        }
+        
+        .right-column {
+            display: grid;
+            grid-template-rows: repeat(3, auto);
+            background-color: white;
+            padding: 40px;
+            min-width: 965px;
+            border-radius: 50px;
+            width: auto;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <script>
+        function mostrarDatos(){
+            var nombre=document.getElementById("nombre").value;
+            
+            var teléfono=document.getElementById("teléfono").value;
+        
+            var correo=document.getElementById("correo").value;
+            
+            var comentario=document.getElementById("comentario").value;
+         var pop="Tu nombre es: "+nombre+"\n"+"Tu teléfono es: "+teléfono+"\n"+"Tu correo es: "+correo+"\n"+"Tu comentario: "+comentario+"\n"+"¡Te enviaré un mensaje lo antes posible!";
+         alert(pop);
+        }
+    </script>
+    <div class="header">
+        <h1>Currículum Vitae</h1>
+        <div class="topnav">
+            <a href="index.html">Inicio</a>
+            <a href="MisServicios.html">Mis servicios</a>
+            <a href="https://mail.google.com/mail/u/0/" target="_blank">Contacto</a>
+            <a href="https://www.livecareer.es/plantilla-curriculum" target="_blank">Referencias</a>
+              </div>
+          
+    </div>
+
+   
+    
+    <div class="container">
+        <div class="left-column">
+            <div class="section">
+                <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/6f02ceab-77af-4fce-a04a-476ec16c15ec/d2v52au-29ab0af4-c4de-4c01-ab2e-0fef5bcfa7ae.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzZmMDJjZWFiLTc3YWYtNGZjZS1hMDRhLTQ3NmVjMTZjMTVlY1wvZDJ2NTJhdS0yOWFiMGFmNC1jNGRlLTRjMDEtYWIyZS0wZmVmNWJjZmE3YWUuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.omTPPWewh18HLUFuD-hP7K7rZn8XxUepjcjqmnr4PHU" height="300px" width="300px" style="border-radius: 150px;"/>
+                </div>
+                <hr size="3px" style="color: black; background-color: black; width:100%;" />
+                <div class="section">
+                <div class="bannerletras"><h2>Información Personal</h2></div>
+                <p><img src="https://images.rawpixel.com/image_png_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjkzNy1hZXctMTY1LnBuZw.png" height="20px" width="20"> Miguel Ángel Grande Sánchez</p>
+                <p><img src="https://www.freeiconspng.com/thumbs/email-icon/email-icon--clipart-best-22.png" height="20px" width="20"> mgrandesanchez@gmail.com</p>
+                <p><img src="https://cdn-icons-png.flaticon.com/512/5323/5323603.png" height="20px" width="20"> 1234567890</p>
+               <p><img src="https://cdn.icon-icons.com/icons2/903/PNG/512/house_icon-icons.com_69514.png" height="20px" width="20"> Calle 123, Huelva, España</p>
+            </div>
+
+            <hr size="3px" style="color: black; background-color: black; width:100%;" />
+            
+            <div class="section">
+               <div class="bannerletras"><h2>Idiomas</h2> </div>
+               <p><img src=" https://cdn-icons-png.flaticon.com/512/1377/1377973.png" height="20px" width="20"> Español</p>
+                <p><img src="https://cdn-icons-png.flaticon.com/512/1377/1377975.png" height="20px" width="20"> Inglés</p>
+            </div>
+            
+            <hr size="3px" style="color: black; background-color: black; width:100%;" />
+        
+        <div class="section">
+            <p>¡Déjame tus datos para enviarte un mensaje! (obligatorio *)</p>
+         <form id="formulario" class="p-3 mt-5 shadow border">
+
+             * <input id="nombre"type="text" required placeholder="ingrese su nombre"><br><br>
+             <input id="teléfono" type="text"  placeholder="ingrese su teléfono"><br><br>
+             * <input id="correo" type="text" required placeholder="ingrese su correo"><br><br>
+             <textarea id="comentario" rows="5" cols="50" placeholder="ingrese un comentario/sugerencia"></textarea>
+
+          
+
+             <input type="submit" value="Enviar" onclick="mostrarDatos()">
+             </form>
+             </div>
+        </div>
+       
+        <div class="right-column">
+            <div class="section">
+                <div class="bannerletras"><h2><img src="https://cdn-icons-png.flaticon.com/512/939/939160.png" height="20px" width="20"> Experiencia Laboral <img src="https://cdn-icons-png.flaticon.com/512/939/939160.png" height="20px" width="20"></h2></div>
+                <h3><img src=" https://creazilla-store.fra1.digitaloceanspaces.com/cliparts/7802931/computer-icon-clipart-md.png" height="20px" width="20"> Desarrollador Web</h3>
+                <p>Empresa ABC</p>
+                <p>Fecha: Enero 2021 - Presente</p>
+                <p>Descripción: Desarrollo y mantenimiento de aplicaciones web.</p>
+            </div>
+            <div class="section">
+            <h3><img src=" https://creazilla-store.fra1.digitaloceanspaces.com/cliparts/7802931/computer-icon-clipart-md.png" height="20px" width="20"> Programador</h3>
+            <p>Empresa ABC2</p>
+            <p>Fecha: Enero 2020 - 2021</p>
+            <p>Descripción: Desarrollo y mantenimiento de aplicaciones web.</p>
+        </div>
+            <hr size="3px" style="color: black; background-color: black; width:100%;" />
+            
+            <div class="section">
+                <div class="bannerletras"> <h2>Resumen Profesional</h2></div>
+               <p>Programador web con menos de 1 año de estudio en un grado superior de Desarrollador de Aplicaciones Web. A lo largo de estos años me planteé iniciar este curso para aprender a programar y tener una buena visión de cómo realizar una página web.
+                Cualquier sugerencia a este trabajo puede ponérmelo por comentarios, intentaré aprender todo lo que pueda y aprobar con buena nota esta
+               </p>
+            </div>
+            <hr size="3px" style="color: black; background-color: black; width:100%;" />
+            <div class="section">
+                <div class="bannerletras"> <h2>Habilidades</h2></div>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Java</li>
+                    <li>SQL</li>
+                </ul>
+            </div>
+            <hr size="3px" style="color: black; background-color: black; width:100%;" />
+            <div class="section">
+                <div class="bannerletras"> <h2>Aptitudes</h2></div>
+                <ul>
+                    <li>Trabajo en Equipo</li>
+                    <li>Iniciativa</li>
+                    <li>Resolución de problemas</li>
+                    <li>Aprendizaje fluido</li>
+                    <li>Comunicación efectiva</li>
+                </ul>
+            </div>
+           
+        </div>
+    </div>
+</body>
+</html>
